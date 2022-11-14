@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+.title {
+    text-align: center;
+}
+
+.statistics {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    font-size: 30px;
+}
+.hit-hammer {
+}
+.hit-title {
+}
+.hit-stat {
+}
+.miss-hammer {
+}
+.miss-title {
+}
+.miss-stat {
+}
+
+
+#board {
+    position: relative;
+    height: 450px;
+    width: 450px;
+    margin: 50px auto 30px auto;
+    overflow: hidden;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    grid-gap: 10px;
+}
+
+.field {
+    background-color: rgb(67, 215, 96);
+    border-radius: 50%;
+    cursor: pointer;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    font-family: 'Arial', sans-serif;
+}
+
+.style-img {
+    box-sizing: border-box;
+    width: 100%;
+}
+.busy {
+    cursor: url("../img/hammer6.ico") , auto;
+}
+
+.hide {
+    background-color: rgb(10, 10, 10);
+    border-radius: 50%;
+}
