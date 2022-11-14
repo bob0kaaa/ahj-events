@@ -1,8 +1,8 @@
 import Board from './board.js';
 import Img from './imgCreate.js';
 
-const hitSpan = document.getElementById('hit')
-const missSpan = document.getElementById('miss')
+const hitSpan = document.getElementById('hit');
+const missSpan = document.getElementById('miss');
 let count = 0;
 let countChange = 1;
 let id;
